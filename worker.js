@@ -21,7 +21,7 @@ async function getRedirects() {
 
 export default {
   async fetch(request) {
-    const path = new URL(request.url).pathname.slice(1);
+    const path = new URL(request.url).pathname.slice(1).replace(/\/$/, "");
 
     if (path.startsWith("qr/")) {
       const slug = path.replace("qr/", "");
