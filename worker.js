@@ -33,6 +33,6 @@ export default {
     const redirects = await getRedirects();
     if (redirects[path]) return Response.redirect(redirects[path], 301);
 
-    return Response.redirect("https://leorium.com", 301);
+    return Response.redirect("https://leorium.com", 302);
   }
 };
