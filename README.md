@@ -25,4 +25,6 @@ leorium.link/qr/os0  →  QR image pointing to leorium.link/os0
 | Short | Destination |
 |-------|------------|
 | `/os0` | DuoOS Introduction |
+| `/yt` | YouTube (@leorium) |
+| `/youtube` | YouTube (@leorium) |
 | `/` | leorium.com (fallback) |
