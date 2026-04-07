@@ -10,6 +10,8 @@ Edit `_redirects` and push:
 /slug    https://leorium.com/full/path/    301
 ```
 
+Use `301` for permanent links (blog posts, projects, social profiles). Use `302` for temporary links (slides, event pages, meeting links).
+
 The Worker fetches `_redirects` from GitHub (1-min cache).
 
 ## QR codes
@@ -22,9 +24,10 @@ leorium.link/qr/os0  →  QR image pointing to leorium.link/os0
 
 ## Current redirects
 
-| Short | Destination |
-|-------|------------|
-| `/os0` | DuoOS Introduction |
-| `/yt` | YouTube (@leorium) |
-| `/youtube` | YouTube (@leorium) |
-| `/` | leorium.com (fallback) |
+| Short | Status | Destination |
+|-------|--------|------------|
+| `/os0` | 301 | DuoOS Introduction |
+| `/link` | 301 | leorium.link blog post |
+| `/yt` | 301 | YouTube (@leorium) |
+| `/youtube` | 301 | YouTube (@leorium) |
+| `/` | 302 | leorium.com (fallback) |
