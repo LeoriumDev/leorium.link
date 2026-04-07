@@ -1,13 +1,13 @@
 # DuoOS series
-/os0    https://leorium.com/blog/duo-os/introduction/    301
-/link   https://leorium.com/blog/leorium-link/           301
+/os0        https://leorium.com/blog/duo-os/introduction/   301
+/link       https://leorium.com/blog/leorium-link/          301
 
 # Social
-/yt         https://www.youtube.com/@leorium    301
-/youtube    https://www.youtube.com/@leorium    301
+/yt         https://www.youtube.com/@leorium                301
+/youtube    https://www.youtube.com/@leorium                301
 
 # Temporary
-# /tmp        https://example.com                 302
+# /tmp      https://example.com                             302
 
 # Fallback
-/       https://leorium.com                              302
+/           https://leorium.com                             302
