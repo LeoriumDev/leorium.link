@@ -30,4 +30,5 @@ leorium.link/qr/os0  →  QR image pointing to leorium.link/os0
 | `/link` | 301 | leorium.link blog post |
 | `/yt` | 301 | YouTube (@leorium) |
 | `/youtube` | 301 | YouTube (@leorium) |
+| `/mantra` | 302 | MANTRA pitch video (YouTube) |
 | `/` | 302 | leorium.com (fallback) |
